@@ -5052,8 +5052,8 @@ window.onload = function () {
 			output = predictWallpaper(isSearch, extra);
 		} else if (tabID === 'trash') {
 			output = predictTrash(isSearch, extra);
-		//} else if (tabID === 'resort') {
-		//	output = predictResortVisitors(isSearch, extra);
+		} else if (tabID === 'resort') {
+			output = predictResortVisitors(isSearch, extra);
 		} else if (tabID === 'enchant') {
 			output = predictEnchantments(isSearch, extra);
 		} else if (tabID === 'minechest') {
